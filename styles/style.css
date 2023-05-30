@@ -1,0 +1,113 @@
+body{
+    background: url('../source/Ellipsey.png') 52% 15% no-repeat,url('../source/Layer 0.jpg') 0 0 / cover no-repeat;
+}
+.information{
+    margin-top: 5%;
+}
+.information__head{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    color: #273d46;
+}
+.information__text{
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+    color: #273d46;
+}
+.image__img{
+    min-height: 135px;
+    min-width: 205px;
+    height: 540px;
+    width: 820px;
+    border: 10px solid white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 15px 15px 65px 1px rgba(15, 16, 16, 0.2);;
+}
+.footer{
+    margin-top: 95px;
+    width: 750px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color:#273d46;
+    line-height: 40px;
+    opacity: 0.8;
+}
+ul{
+    display: block;
+    width: 550px;
+    height: 150px;
+    list-style-type: none;
+    margin: 0 100% 0 0;
+    padding: 0 0 0 0;
+}
+.advantages li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('../source/icon.png') left top no-repeat;
+    padding: 0 0 15px 40px;
+    border: none;
+}
+.advantages li:first-child{
+    color: #273d46;
+    font-weight: bold;
+}
+.advantages li:nth-child(2){
+    color: #80b7b3;
+    font-style: italic;
+}
+.advantages li:nth-child(3){
+    font-weight: 600;
+    color: #273d46;
+}
+.advantages li:last-child{
+    color: rgba(15%, 24%, 27%, 0.5);
+    text-decoration: line-through;
+}
+.advantages li:first-child:hover{
+    font-weight: normal;
+    color: #273d46;
+}
+.advantages li:nth-child(2):hover{
+    color: #273d46;
+    font-style: normal;
+}
+.advantages li:nth-child(3):hover{
+    font-weight: normal;
+    color: #273d46;
+}
+.advantages li:last-child:hover{
+    color:#273d46;;
+    text-decoration: none;
+}
+.button{
+    margin-top: 60px;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    background: url("../source/Shape 2.png")85% 50% no-repeat,url("../source/Rounded Rectangle 1.png") 0 0/ cover no-repeat;
+    box-shadow: 6px 6px 40px 1px #80b7b3;
+    font-size: 12px;
+    text-transform: uppercase;
+    color:white;
+    letter-spacing: 5px;
+    padding: 0 25px 0 0;
+}
+.button:hover{
+    background: url("../source/Shape 2.png")85% 50% no-repeat,url("../source/Rounded Rectangle 12.png") 0 0/ cover no-repeat;
+}
+.button:active{
+    background: url("../source/Shape 2.png")85% 50% no-repeat,url("../source/Rounded Rectangle 13.png") 0 0/ cover no-repeat;
+    box-shadow: none;
+}
